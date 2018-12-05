@@ -19,9 +19,14 @@ export default new Router({
       component: () => import('./views/About.vue')
     },
     {
-      path: '/contact',
-      name: 'contact',
-      component: () => import('./views/Contact.vue')
+      path: '/buttons',
+      name: 'buttons',
+      component: () => import('./views/Buttons.vue')
+    },
+    {
+      path: '/breakpoints',
+      name: 'breakpoints',
+      component: () => import('./views/Breakpoints.vue')
     }
   ]
 })
