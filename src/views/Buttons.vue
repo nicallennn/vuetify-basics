@@ -26,6 +26,10 @@
     <v-btn fab small depressed color="purple white--text">
       <v-icon>favorite</v-icon>
     </v-btn>
+
+    <v-card fab small depressed color="purple white--text">
+      <v-icon>favorite</v-icon>
+    </v-card>
   </div>
 </template>
 
